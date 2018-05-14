@@ -13,7 +13,7 @@ const AllAlbums = (props) => {
           albums.map(album => (
             <div className="col-xs-4" key={ album.id }>
               <Link className="thumbnail" to={`/albums/${album.id}`}>
-                <img src={ album.imageUrl } />
+                <img src='default-album.jpg' />
                 <div className="caption">
                   <h5>
                     <span>{ album.name }</span>

@@ -28,7 +28,7 @@ export default class SingleAlbum extends Component {
       <div className="album">
         <div>
           <h3>{ album.name }</h3>
-          <img src={ album.imageUrl } className="img-thumbnail" />
+          <img src='default-album.jpg' className="img-thumbnail" />
         </div>
         <Songs songs={album.songs} />
       </div>
